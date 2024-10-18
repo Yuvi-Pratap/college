@@ -20,7 +20,7 @@ import com.college.project.demo.domain.UserRequest;
         }
         else if(request.getMobile()==null||request.getMobile().equals("")){
             response.setStatus("FAILURE");
-            response.setMessage("Invalid mobile nubmer.");
+            response.setMessage("Invalid mobile nubmer provided by user.");
             return response;
         }
         // Save Logic
